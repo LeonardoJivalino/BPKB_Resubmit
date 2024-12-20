@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "BPKB_BackEnd": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Connection_String": "Server=localhost;Database=BPKB;Trusted_Connection=True;TrustServerCertificate=True;"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7175;http://localhost:5197"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:1454",
+      "sslPort": 44327
+    }
+  }
+}
